@@ -6,15 +6,18 @@
 3. [Tools Used](#tools-used)  
 4. [Data Cleaning and Preparation](#data-cleaning-and-preparation)  
 5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
-6. [Data Analysis](#data-analysis)  
-7. [Results & Findings](#results--findings)  
-8. [Recommendations](#recommendations)  
-9. [Limitations](#limitations)  
-10. [References](#references)  
+6. [Data Analysis](#data-analysis)
+7. [PivotCharts & Interactive Dashboard](pivotcharts-&-interactive-dashboard) 
+8. [Results & Findings](#results--findings)  
+9. [Recommendations](#recommendations)  
+10. [Limitations](#limitations)  
+11. [References](#references)  
 
 ## Project Overview  
 This project involved cleaning and analyzing a **messy sales dataset** containing **10,000 rows and 8 columns**.  
 The dataset had **missing values, errors, and inconsistent formats**. Using **Microsoft Excel**, I transformed it into a structured format and created meaningful insights through **interactive dashboards**.  
+
+![image](https://github.com/user-attachments/assets/6533a767-4ab3-48a2-a173-bb4e275b181e)
 
 ## Data Source  
 The dataset was obtained from **Kaggle** and contains **sales transactions** with the following fields:  
@@ -80,9 +83,9 @@ All data analysis was conducted using **PivotTables** in Excel. The PivotTables 
 - **Counting transactions by payment method** to determine customer preferences  
 - **Comparing takeaway vs. dine-in sales** to understand ordering habits
 
-## PivotCharts: Visualizing Insights  
+## PivotCharts & Interactive Dashboard  
 
-After analyzing the data using **PivotTables**, I used **PivotCharts** to visualize key trends and make insights easier to understand.  
+After analyzing the data with **PivotTables**, I created an **interactive dashboard** to enhance visualization and user experience.  
 
 ### **Charts Used & Why?**  
 
@@ -92,7 +95,20 @@ After analyzing the data using **PivotTables**, I used **PivotCharts** to visual
 - **Pie Chart** 🍕 → To show the **distribution of payment methods** (Digital Wallets vs. Cash).  
 - **Treemap Chart** 🔲 → To visualize the **most popular product categories** at a glance.  
 
-Using **PivotCharts**, I turned raw sales data into **actionable business insights**, making it easier to identify trends and make data-driven decisions. 🚀  
+### **Dashboard Features & Enhancements**  
+
+I refined the dashboard for **better usability and interactivity** using:  
+
+✅ **Slicers** 🎛️ – Added slicers for **Product Category, Month, and Payment Method** to filter data easily.  
+✅ **Timeline** ⏳ – Used a timeline to **analyze sales trends over time** with dynamic date selection.  
+✅ **Conditional Formatting** 🎨 – Highlighted key values to make **important insights stand out**.  
+✅ **Color Themes** 🎨 – Applied **consistent branding** for a **professional look and easy readability**.  
+✅ **Dynamic Layout** 📊 – Ensured **charts update automatically** when filters are applied.  
+
+![image](https://github.com/user-attachments/assets/cfaafab2-51fe-47d1-a98b-3e2882739639)
+
+By integrating **PivotCharts with an interactive dashboard**, I transformed raw data into **a clear, visually appealing report** that enables **quick decision-making and trend analysis**. 🚀  
+
 
 ## Results & Findings
 - Juice vs. Salad: Juice had more sales, but salads generated higher revenue.
